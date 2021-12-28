@@ -3,10 +3,13 @@ Le client ouvre la connexion, le serveur le renvoie le nombre demandé de paquet
 dernier fermera la connexion dès réception des paquets.
 
 pour compiler :
+
 le serveu.c : gcc serveur.c -o serveur -lpthread (pour le 1er terminal)
 
 le client.c : gcc client.c -o client (pour le 2nd terminal)
+
 Ensuite:
+
 ./serveur (pour le 1er terminal)
 
 ./client (pour le 2nd terminal)
