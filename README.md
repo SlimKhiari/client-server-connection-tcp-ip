@@ -1,18 +1,16 @@
-Le projet consiste à simuler un échange des paquets de bout en bout entre un client et un serveur.
-Le client ouvre la connexion, le serveur le renvoie le nombre demandé de paquets par le client, ce
-dernier fermera la connexion dès réception des paquets.
+The project consists of simulating an end-to-end packet exchange between a client and a server. The client opens the connection, the server sends back the number of packets requested by the client, the latter will close the connection as soon as the packets are received.
 
-pour compiler :
+to compile:
 
-le serveu.c : gcc serveur.c -o serveur -lpthread (pour le 1er terminal)
+the server.c: gcc server.c -o server -lpthread (for the 1st terminal)
 
-le client.c : gcc client.c -o client (pour le 2nd terminal)
+the client.c: gcc client.c -o client (for the 2nd terminal)
 
-Ensuite:
+Next:
 
-./serveur (pour le 1er terminal)
+./server (for the 1st terminal)
 
-./client (pour le 2nd terminal)
+./client (for the 2nd terminal)
 
-* schema explicatif :
+explanatory diagram :
 ![schema_explicatif](https://user-images.githubusercontent.com/73532355/147503297-4a0690a6-7fb6-4a2f-81df-aede87d60e4e.png)
