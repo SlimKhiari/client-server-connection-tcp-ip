@@ -2,7 +2,7 @@ The project consists of simulating an end-to-end packet exchange between a clien
 
 to compile:
 
-the server.c: gcc server.c -o server -lpthread (for the 1st terminal)
+the server.c: gcc serveur.c -o server -lpthread (for the 1st terminal)
 
 the client.c: gcc client.c -o client (for the 2nd terminal)
 
